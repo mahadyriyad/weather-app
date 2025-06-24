@@ -1,0 +1,53 @@
+/* style.css */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #eff0eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.container {
+    text-align: center;
+    background: #373835;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(9, 1, 1, 0);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#weatherInfo{
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+    font-size: 16px;
+}
